@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="title">
+            <h2>APRENDENDO MODAL</h2>
+        </header>
+
+        <section class="caixa-modal">
+            <div class="button">
+                <div class="caixa-button">
+                    <p class="texto-button">Para conhecer mais sobre tal assunto, clique no botão abaixo:</p>
+                    <button id="abrir-botao" onclick="abrirModal()">
+                        <strong>ABRIR</strong>
+                    </button>
+                </div>
+            </div>
+
+            <div id="modal-geral">
+                <div class="modal">
+                    <p class="texto">Fico feliz que você ficou interessada em conhecer ainda mais sobre tal assunto. Nos próximos paragráfos você verá diversas curiosidades sobre o tema.</p>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt quos, hic iusto, similique soluta nobis consequuntur cum molestias eveniet expedita placeat laborum nisi omnis modi deleniti id officiis itaque? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quo accusamus omnis iure qui unde corrupti. Illo, quos. Culpa vitae eveniet rem nihil eos consequatur odit provident quibusdam ratione blanditiis.
+                </p>
+                <button id="fechar-botao" onclick="fecharModal()">
+                <strong>FECHAR</strong></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    width: 99%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+}
+
+
+#modal{
+    background-color: rgb(200, 220, 255);
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto{
+    text-align: center;
+}
+
+#abrir-botao{
+    padding: 0.5rem;
+    background-color: rgb(162, 107, 207);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+}
+
+#fechar-botao{
+    padding: 0.5rem;
+    background-color: rgb(162, 107, 207);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    
+}
